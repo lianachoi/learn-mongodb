@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" :"nodemon server.js",
+    "dev" :"nodemon basic.js",
     "start": "node server.js",
 	  "_comment": "nodemon 설치해서 단축어로 시작하기 -> nodemon"
   },
