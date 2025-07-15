@@ -1,0 +1,26 @@
+{
+  "name": "learn-mongodb",
+  "version": "1.0.0",
+  "type": "module",
+  "_comment": "type 에 import구문 사용시 -> module / require구문 사용시 -> commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" :"nodemon server.js",
+    "start": "node server.js",
+	  "_comment": "nodemon 설치해서 단축어로 시작하기 -> nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
