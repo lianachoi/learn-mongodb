@@ -36,3 +36,14 @@ if (isAccessAdminPage) {
 } else {
     console.log("관리자 페이지 접근 불가능")    
 }
+
+
+isAccessAdminPage? console.log("관리자 페이지 접근 가능"):console.log("관리자 페이지 접근 불가능")    
+
+const words_ = [...words, "abc"]
+const word__ = words
+
+words[0] = "def"
+console.log("🚀 ~ words:", words)
+console.log("🚀 ~ words_:", words_)
+console.log("🚀 ~ word__:", word__)
